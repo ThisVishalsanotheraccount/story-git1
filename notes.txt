@@ -1,0 +1,31 @@
+Commiting files locally
+
+Here in this folder chapter 1, 2 and 3 are the 3 txt files
+Here are the step by step commands  
+
+
+$ git init // TO init git in the folder
+$ ls -a
+$ git status
+$ git add chapter1.txt
+$ git status
+$ git config user.email "vishalthorali@gmail.com"
+$ git config user.name "R.Vishal"
+$ git commit -m "Complete chapter1"
+$ git log
+$ touch chapter2.txt chapter3.txt
+$ git add .
+$ git status
+$ git commit -m "Compete chapter 2 and 3"
+$ git log
+
+Modify the chapter 3 txt file snd save it
+We can retrive the previous save of the txt file using bow command Before that check status
+$ git status
+$ git diff chapter3.txt // It what are the changes are made
+$ git checkout chapter3.txt // It will move to previous repository
+
+Commiting files using gitHub
+
+$ git remote add origin https://github.com/VishalRaja1207/story-git1.git //The link is generated in github in new repository
+$ git push -u origin master //It will push to gitHub
